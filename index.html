@@ -3,32 +3,17 @@
 <html>
 
 <head>
-    <title>我的个人博客</title>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            var aboutSection = document.getElementById('about');
-            var aboutLink = document.querySelector('a[href="#about"]');
-            var postSection = document.getElementById('blog-posts');
-            var postLink = document.querySelector('a[href="#blog-posts"]');
-
-            aboutSection.style.display = 'none';
-            postSection.style.display = 'none';
-
-            aboutLink.addEventListener('click', function(event) {
-                event.preventDefault();
-                aboutSection.style.display = aboutSection.style.display === 'none' ? 'block' : 'none';
-            });
-
-            postLink.addEventListener('click', function(event) {
-                event.preventDefault();
-                postSection.style.display = postSection.style.display === 'none' ? 'block' : 'none';
-            });
-        });
+    <title>八云蓝博客</title>
+    <script type="text/javascript" src="./txt/a.js">
     </script>
+    <link rel="stylesheet" href="./txt/a.css">
 </head>
 
 <body>
     <header>
+        <div class="header-image">
+            <img src="./img/1.png" alt="Header Image">
+        </div>
         <h1>欢迎来到我的博客</h1>
         <nav>
             <ul>
